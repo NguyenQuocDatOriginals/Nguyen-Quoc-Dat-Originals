@@ -26,7 +26,7 @@ function App() {
     <div>
       <img src={anhToiUu} alt="Nguyễn Quốc Đạt Originals" id="img" />
       <h1 id="very-first">{name}</h1>
-      <h1 id="first">Đếm số thôi nào các bạn ơi!</h1>
+      <h1 id="first">Hãy đếm số!</h1>
       <h1 id="second">Số {number}</h1>
       <button onClick={handleDecreaseClick} className="minus-button">Đếm số theo thứ tự giảm dần</button>
       <button onClick={handleIncreaseClick} className="add-button" style={{margin: '10px'}}>Đếm số theo thứ tự tăng dần</button>
