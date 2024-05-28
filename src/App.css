@@ -31,12 +31,12 @@
 
 #very-first {
   font-size: 25px;
+  margin-bottom: 30px;
   color: yellow;
 }
 
 #first {
    font-size: 40px;
-   margin-top: 20px;
    color: lightgray;
 }
 
