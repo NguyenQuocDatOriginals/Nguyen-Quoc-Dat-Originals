@@ -1,5 +1,4 @@
 import { useEffect, useState } from 'react';
-import anhToiUu from 'src/Ảnh tối ưu 2023.jpg';
 import './App.css';
 
 function App() {
@@ -24,7 +23,6 @@ function App() {
 
   return (
     <div>
-      <img src={anhToiUu} alt="Nguyễn Quốc Đạt Originals" id="img" />
       <h1 id="very-first">{name}</h1>
       <h1 id="first">Đếm số thôi nào các bạn ơi!</h1>
       <h1 id="second">Số {number}</h1>
