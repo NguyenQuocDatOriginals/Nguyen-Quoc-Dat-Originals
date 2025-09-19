@@ -1,8 +1,9 @@
-import { defineConfig } from 'vite';
-import react from '@vitejs/plugin-react';
-import viteImagemin from 'vite-plugin-imagemin';
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
 
 export default defineConfig({
-  plugins: [react(), viteImagemin()],
+  plugins: [
+    react(),
+  ],
   assetsInclude: ['**/*.JPG'],
-});
+})

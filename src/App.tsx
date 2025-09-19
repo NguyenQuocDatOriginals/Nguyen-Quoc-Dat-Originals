@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import anhToiUu from './assets/2025.jpg';
+import anhToiUu from './assets/2026.jpeg';
 import './App.css';
 
 function App() {
